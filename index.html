@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Touch</title>
+</head>
+<body onclick="">
+<script type="text/javascript" src="touch.js"></script>
+<script type="text/javascript">
+window.onload=function()
+{
+	COLOR_CHANGE = 0;
+	CANVAS = document.getElementById('scene');
+	CANVAS.onmousedown = mouseClick;
+	CANVAS.onmouseup = mouseRelease;
+	CONTEXT = CANVAS.getContext('2d');
+}
+
+
+
+
+</script>
+
+<canvas id="scene" width="2000" height="2000"> </canvas>
+</body>
+</html>
